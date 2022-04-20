@@ -30,41 +30,33 @@ body {
 /* start header*/
 .container {
     
-    padding-left: 215px;
-    padding-right: 215px;
     text-decoration: none;
     margin-top: 0px;
     margin-bottom: 0px;
-    width: 1170px;
-   
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 1200px;
     
-    
-
 }
-
+.ul, .ol, .h1, .h2, .h3, .h4 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+}
 .header {
     display: flex;
     align-items: center;
     height: 80px;
-    
-    
-    
-    
-
-   
 }
 .container header {
     border-bottom: 1px solid #ECECEC;
-    
-  
-    
-}
+    }
 .logo {
     text-decoration: none;
     padding-top: 24px;
-    padding-bottom: 25px;
-    
-    
+    padding-bottom: 25px; 
 }
 
 .logo-header {
@@ -75,9 +67,6 @@ body {
     font-size: 26px;
     line-height: 1.19;
     text-decoration: none;
-    
-       
-    
     }
 .second-logo-header {
     font-family: Raleway; sans-serif;
@@ -88,9 +77,6 @@ body {
     text-decoration: none;
     color: var(--title-color);
     margin-right: 93px;
-    
-    
-    
 }
 .about, .portfolio-list, .team-list, .footer, .footer-list, .site-nav, .auth-nav, .menu-list, .projects-list {
     list-style: none;
@@ -146,9 +132,8 @@ body {
 /* start hero*/
 .hero {
     background-color: var(--hero-bgc);
-    height: 400px;
-    width: 1600px;
     padding-top: 200px;
+    padding-bottom: 200px;
     
     
     
@@ -179,10 +164,10 @@ body {
     letter-spacing: 0.06em;
     background: #2196F3;
     margin: auto;
-    width: 200px;
     height: 50px;
     margin-left: 700px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    padding: 10px 32px 10px 32px;
     
     
 
@@ -199,9 +184,14 @@ body {
     padding-left: 0px;
     
 }
+.section-about{
+    
+}
 .about {
     display: flex;
-    margin-top: 94px;
+    padding-top: 94px;
+    padding-bottom: 94px;
+        
 }
 .about-title{
     color: var(--title-color);
@@ -212,6 +202,7 @@ body {
     margin-top: 0px;
     margin-bottom: 0px;
     margin-right: 30px;
+    
 }
 .about-list {
     color: var(--primary-text-color);
@@ -219,17 +210,14 @@ body {
     font-size: 14px;
     line-height: 1.7;
     margin-top: 10px;
-    margin-bottom: 0px;
     margin-right: 30px;
-    
-
-
+    margin-bottom: 0px;
 }
 /* end about*/
 /* start portfolio*/
 
 .portfolio{
-    margin-top: 94px;
+    
     padding-bottom: 94px;
 }
 .portfolio-title{
@@ -243,7 +231,7 @@ body {
 }
 .portfolio-list{
     padding-left: 0px;
-    
+    margin-top: 50px;
     margin-bottom: 0px;
     display: flex;
 }
@@ -255,8 +243,7 @@ body {
 /* start team*/
 .team {
     background-color: var(--secondary-bgc);
-    padding-left: 215px;
-    padding-right: 215px;
+    
     padding-bottom: 94px;
     padding-top: 94px;
     
@@ -320,14 +307,15 @@ body {
 /* end team*/
 /* start footer*/
 
-.container footer {
+.container-footer {
     padding-top: 60px;
     padding-bottom: 60px;
+  
 }
 .footer {
     background-color: var(--hero-bgc);
-   
-    
+    padding-top: 60px;
+    padding-bottom: 60px;
        
 }
 .footer-list{
@@ -396,10 +384,10 @@ body {
 }
 .menu-list{
     padding-top: 94px;
+    padding-bottom: 50px;
     display: flex;
     justify-content: center;
-    height: 38px;
-    min-width: 73px;
+    
      
 }
 
@@ -419,6 +407,10 @@ body {
     border-radius: 4px;
     border: 4px solid transparent;
     margin-right: 8px;
+    height: 38px;
+    min-width: 73px;
+    padding: 0px;
+    padding: 6px 22px 6px 22px;
     
    
     
@@ -440,6 +432,9 @@ body {
     padding-bottom: 20px;
     padding-top: 20px;
 }
+.projects{
+    padding-bottom: 94px;
+}
 .projects-title{
     color: var(--title-color);
     font-weight: bold;
@@ -448,6 +443,7 @@ body {
     margin-top: 0px;
     padding-bottom: 0px;
     margin-bottom: 0px;
+    line-height: 2;
     
 }
 
@@ -456,21 +452,20 @@ body {
     font-weight: normal;
     font-size: 16px;
     margin-top: 4px;
+    line-height: 1.87;
     
 
 }
 .projects-list {
-    padding-top: 50px;
+    
     padding-left: 0px;
-    padding-bottom: 0px;
-    margin-bottom: 94px;
+    padding-bottom: 0px;   
     display: flex;
     flex-wrap: wrap;
 
 }
 .projects-foto{
     margin-right: 30px;
-    
     margin-bottom: 30px;
     
 }
