@@ -285,8 +285,10 @@ body {
    
 }
 .team-div {
-    padding: 30px 59px 30px 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     background-color: var(--primary-bgc);
+    margin-top: -5px;
 }
 .team-name {
     color: var(--title-color);
@@ -367,8 +369,11 @@ body {
     font-size: 14px;
     line-height: 1.7;
     text-decoration: none;
-    margin-top: 9px;
     
+    
+}
+.footer-item{
+    margin-top: 9px;
 }
 /* end footer*/
 /*КОНЕЦ ГЛАВНОЙ СТРАНИЦЫ*/
@@ -380,10 +385,7 @@ body {
     margin-top: 0px;
     margin-bottom: 0px;
 }
-.menu{
-    padding-top: 94px;
-    margin-bottom: 50px;
-}
+
 .menu-list{
     
     display: flex;
@@ -412,6 +414,7 @@ body {
     min-width: 73px;
     padding: 0px;
     padding: 6px 22px 6px 22px;
+   
     
    
     
@@ -432,9 +435,11 @@ body {
     padding-left: 24px;
     padding-bottom: 20px;
     padding-top: 20px;
+    margin-top: -5px;
 }
 .projects{
     padding-bottom: 94px;
+    padding-top: 94px;
 }
 .projects-title{
     color: var(--title-color);
@@ -463,11 +468,14 @@ body {
     padding-bottom: 0px;   
     display: flex;
     flex-wrap: wrap;
+    margin-top: 50px;
+    
 
 }
 .projects-foto{
     margin-right: 30px;
     margin-bottom: 30px;
+    display: block;
     
 }
 .projects-foto:nth-child(3n){
